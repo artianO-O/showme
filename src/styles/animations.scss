@@ -1,0 +1,72 @@
+@use './variables' as *;
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes scrollHint {
+  0% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba($color-accent-cyan, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba($color-accent-cyan, 0.25);
+  }
+}
+
+.animate-hidden {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.animate-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.8s $ease-out-expo, transform 0.8s $ease-out-expo;
+}

@@ -1,0 +1,75 @@
+// ============================================
+// Color Palette
+// ============================================
+$color-bg-primary: #0a0e1a;
+$color-bg-secondary: #111827;
+$color-bg-card: #1a1f35;
+$color-bg-card-hover: #222845;
+
+$color-accent-cyan: #00f0ff;
+$color-accent-amber: #ffb800;
+$color-accent-purple: #a855f7;
+
+$color-text-primary: #f0f0f5;
+$color-text-secondary: #8892b0;
+$color-text-muted: #4a5568;
+
+$color-border: rgba(255, 255, 255, 0.08);
+$color-border-hover: rgba(0, 240, 255, 0.3);
+
+// ============================================
+// Typography
+// ============================================
+$font-display: 'JetBrains Mono', 'Noto Sans SC', monospace;
+$font-body: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+$font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-base: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 1.5rem;
+$font-size-2xl: 2rem;
+$font-size-3xl: 3rem;
+$font-size-4xl: 4rem;
+$font-size-5xl: 6rem;
+
+// ============================================
+// Spacing
+// ============================================
+$space-xs: 0.25rem;
+$space-sm: 0.5rem;
+$space-md: 1rem;
+$space-lg: 1.5rem;
+$space-xl: 2rem;
+$space-2xl: 3rem;
+$space-3xl: 4rem;
+$space-4xl: 6rem;
+$space-5xl: 8rem;
+
+// ============================================
+// Breakpoints
+// ============================================
+$bp-sm: 640px;
+$bp-md: 768px;
+$bp-lg: 1024px;
+$bp-xl: 1280px;
+
+// ============================================
+// Z-index layers
+// ============================================
+$z-background: -1;
+$z-content: 1;
+$z-nav: 100;
+$z-overlay: 200;
+
+// ============================================
+// Transitions
+// ============================================
+$ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+$ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+$ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+$transition-fast: 0.2s $ease-out-quart;
+$transition-base: 0.4s $ease-out-expo;
+$transition-slow: 0.8s $ease-out-expo;
