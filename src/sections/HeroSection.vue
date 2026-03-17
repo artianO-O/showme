@@ -93,7 +93,7 @@ onUnmounted(() => {
     <ParticleBackground />
     <div class="hero-inner">
       <span class="hero-greeting">// Hello World, I am</span>
-      <h1 class="hero-name">Your Name</h1>
+      <h1 class="hero-name">阿田</h1>
       <p class="hero-subtitle">
         <span>{{ typewriterText }}</span>
         <span class="typewriter-cursor" :class="{ visible: showCursor }">|</span>

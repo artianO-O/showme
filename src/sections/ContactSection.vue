@@ -6,10 +6,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const socialLinks = [
-  { label: 'GitHub', url: 'https://github.com' },
-  { label: '掘金', url: 'https://juejin.cn' },
-  { label: 'Twitter / X', url: 'https://x.com' },
-  { label: 'LinkedIn', url: 'https://linkedin.com' },
+  { label: 'GitHub', url: 'https://github.com/artianO-O' },
+  { label: '技术博客', url: 'https://artiano-o.github.io/blogs/vue3-core.html' },
 ]
 
 let ctx: gsap.Context | null = null
@@ -92,8 +90,8 @@ onUnmounted(() => {
       <h2 class="contact-heading">一起做点什么？</h2>
       <p class="contact-subtitle">无论是项目合作还是技术交流，都欢迎联系我</p>
 
-      <a href="mailto:hello@example.com" class="contact-cta">
-        hello@example.com
+      <a href="mailto:1379631678@qq.com" class="contact-cta">
+        1379631678@qq.com
       </a>
 
       <nav class="contact-social">
